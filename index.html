@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        
+        <p>Descubra seu Indíce de Masssa Corporal!</p>
+
+        <form id="formulario">
+
+            <label>Nome:</label>
+            <input type="text" id="nome"
+                placeholder="DIgite seu nome" required>
+
+            <label>Peso (kg):</label>
+            <input type="number" id="peso"
+                placeholder="Ex: 70" step="any" min="0.01" required>
+
+            <label>Altura (m)</label>
+            <input type="number" id="altura"
+                placeholder="Ex: 1.75" step="any" min="0.01" required>
+
+            <button type="submit">Calcular IMC</button>
+
+
+        </form>
+
+        <div id="resultado"></div>
+
+        <div class="formula">
+
+            <h2>Como o IMC é calculado?</h2>
+
+            <p>O Índice de Massa Corporal (IMC) é calculado
+                dividindo o peso da pessoa pela sua altura
+                ao quadrado.</p>
+
+                   <h3>IMC = Peso / Altura²</h3>
+
+            <p><strong>Exemplo de cálculo:</strong></p>
+
+            <p>Peso: 60 kg</p>
+
+            <p>Altura: 1,70 m</p>
+
+            <p>IMC = 60 / (1,70 x 1,70)</p>
+
+            <p>IMC = 20,76</p>
+
+
+        </div>
+
+        <div class="classificacao">
+
+        <h2>Classificação do IMC</h2>
+         <img src="imgs/classificacao.png"
+          alt="Tabela de classificação do IMC">
+
+
+        </div>
+
+
+            <p class="observacao">
+                Uma observação importante para o projeto: As classificações apresentadas são referências para adultos. 
+                Em adolescentes, a avaliação do IMC também considera a idade e o sexo, por isso os resultados devem ser interpretados de forma diferente.
+            </p>
+
+        <footer>
+            <p>Calculadora de IMC | Feito por João Lucas e Felipe de Melo</p>
+        </footer>
+
+
+
+    </div>
+    
+     <script src="script.js"></script>
+
+
+</body>
+
+</html>

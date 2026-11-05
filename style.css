@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #171329, #632cdb);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    background: white;
+    padding: 40px 8%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #300f6d;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.container > p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #49317a;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #c3b6dd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #30204f;
+}
+
+#resultado {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #49317a;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* FÓRMULA E CLASSIFICAÇÃO */
+
+.formula
+.classificacao {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 30px;
+    background: #f3effa;
+    border-radius: 10px;
+}
+
+.formula {
+    max-width: 750px;
+    width: 100%;
+    margin: 35px auto;
+    padding: 20px 30px;
+    background: #f3effa;
+    border-radius: 10px;
+    border: 2px solid #3e354f;
+    text-align: center;
+}
+
+
+.formula h2,
+.formula h3,
+.classificacao h2 {
+    color: #49317a;
+}
+
+.formula h2,
+.classificacao h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.formula h3 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.formula p,
+.classificacao p {
+    color: #422525;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.classificacao h2,
+.classificacao p {
+    text-align: center;
+}
+
+.classificacao table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 15px;
+}
+
+.classificacao th {
+    background: #49317a;
+    color: white;
+}
+
+.classificacao th,
+.classificacao td {
+    padding: 14px 10px;
+    text-align: center;
+}
+
+.classificacao td {
+    border: 1px solid #ddd;
+}
+
+.classificacao tr:hover {
+    background: #e9e1f5;
+}
+
+.classificacao .observacao {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.classificacao img {
+    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    color: #fffdfd;
+    font-size: 16px;
+    padding-bottom: 15px;
+    background-color: #434344;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 30px 5%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .formula,
+    .classificacao {
+        padding: 20px 12px;
+    }
+
+    .classificacao table {
+        font-size: 11px;
+    }
+
+    .classificacao td,
+    .classificacao th {
+        padding: 10px 5px;
+    }
+}
