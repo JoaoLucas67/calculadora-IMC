@@ -24,7 +24,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
         classificacao = "Abaixo do peso";
 
     } else if (imc < 25) {
-        classificacao = "Peso adequado";
+        classificacao = "Peso normal";
 
     } else if (imc < 30) {
         classificacao = "Sobrepeso";
